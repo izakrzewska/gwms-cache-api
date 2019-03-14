@@ -37,7 +37,7 @@ self.addEventListener('fetch', function(event) {
 });
 
 
-self.addEventListener('activate', function(event) {
+// self.addEventListener('activate', function(event) {
 
     // const cacheWhitelist = ['my-site-cache-v1', 'my-site-cache-images'];
     
@@ -52,4 +52,4 @@ self.addEventListener('activate', function(event) {
     //     );
     //   })
     // );
-});
+// });

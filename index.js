@@ -14,7 +14,7 @@ if ('serviceWorker' in navigator) {
 }
 
 document.getElementById('saveButton').addEventListener("click", function() {
-    caches.open('my-site-cache-images')
+    // caches.open('my-site-cache-images')
     // .then(function(cache) {
     //     return cache.add('/image.png');
     // })
